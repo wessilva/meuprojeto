@@ -19,6 +19,6 @@ class Api::V1::ProductsController < Api::V1::BaseController
   private
 
   def product_params
-    params.require(:product).permit(:name, :price, :description) # Adicione mais campos conforme necessário
+    params.require(:product).permit(:name, :price,) # Adicione mais campos conforme necessário
   end
 end
