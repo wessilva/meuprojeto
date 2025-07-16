@@ -18,6 +18,10 @@ gem "stimulus-rails"
 gem "jbuilder"
 # Cors de cross-origin requests 
 gem 'rack-cors'
+# Criar rotas de cadastro e login de usuários
+gem 'devise', '~> 4.2'
+# Tailwind CSS framework for styling [https://tailwindcss.com]
+gem "tailwindcss-rails", "~> 2.0"
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
  gem "bcrypt", "~> 3.1.7"
